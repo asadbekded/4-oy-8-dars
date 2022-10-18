@@ -2,7 +2,6 @@ let elList = document.querySelector('.js-list')
 let elForm = document.querySelector('.js-form')
 let elInp = document.querySelector('.js-inp')
 // ----------------------elon qilinib boldi htmldan -------------
-
 var itemFragment = new DocumentFragment()
 function renderTodo(arr,node) {
    if(arr.length > 0){
@@ -31,7 +30,6 @@ function renderTodo(arr,node) {
    }
 }
 
-
 elForm.addEventListener('click', function(evt) {
    evt.preventDefault('')
    let elInpVal = elInp.value
@@ -43,10 +41,6 @@ elForm.addEventListener('click', function(evt) {
    }
    getTodo()
 })
-
-
-
-
 //---------------------- mode btn code begin----------------
 const elMode = document.querySelector('.mode-btn')
 var theme = false
