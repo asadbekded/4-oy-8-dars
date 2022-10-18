@@ -5,8 +5,8 @@ let elInp = document.querySelector('.js-inp')
 
 var itemFragment = new DocumentFragment()
 function renderTodo(arr,node) {
-   node.innerHTML = "";
-   if(arr.length > 3){
+   if(arr.length > 0){
+      node.innerHTML = "";
       arr.forEach(el => {
          const newItem = document.createElement('li')
          const newTitle = document.createElement('h5')
@@ -43,9 +43,6 @@ elForm.addEventListener('click', function(evt) {
    }
    getTodo()
 })
-
-
-
 
 
 

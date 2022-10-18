@@ -52,6 +52,10 @@ span + span{
    margin-right: 30px;
 }
 
+.img-spin{
+   margin: 0px auto;
+}
+
 @media only screen and (max-width: 576px){
    .header{
       display: block;
