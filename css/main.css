@@ -68,4 +68,7 @@ span + span{
    ul{
       margin-top: 15px;
    }
+   li{
+      margin: 0px auto;
+   }
 }
