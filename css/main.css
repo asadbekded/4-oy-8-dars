@@ -54,6 +54,7 @@ span + span{
 
 .img-spin{
    margin: 0px auto;
+   background-color: transparent;
 }
 
 @media only screen and (max-width: 576px){
