@@ -70,5 +70,6 @@ span + span{
    }
    li{
       margin: 0px auto;
+      margin-bottom: 20px;
    }
 }
