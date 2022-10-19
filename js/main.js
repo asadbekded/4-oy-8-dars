@@ -28,6 +28,7 @@ const renderMovie = (array,node) => {
          const newSpan2 = document.createElement('span')
    
          newImg.src = item.Poster
+         newImg.classList.add('diaz')
          newImg.width = '270'
          newImg.height = '300'
          newTitle.textContent = item.Title

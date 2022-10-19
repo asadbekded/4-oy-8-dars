@@ -83,6 +83,10 @@ span + span{
    text-align: center;
    margin-bottom: 30px;
 }
+.diaz{
+   border-top-right-radius: 18px;
+   border-top-left-radius: 18px;
+}
 /* responsive code  */
 @media only screen and (max-width: 576px){
    .header{
